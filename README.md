@@ -12,10 +12,16 @@
 > 本项目基于paddleseg框架，采用attention-unet，实现对婴儿头围的分割，并采取图像后处理技术，对分割头像进行处理。同时根据分割后的图像进行边缘拟合从而得出婴儿的精确头围数据。
 
 - 2.安装依赖
-> !git clone https://gitee.com/paddlepaddle/PaddleSeg.git
-> !pip install paddleseg
-> !pip install scikit-image
-> !pip install opencv-python==3.4.2.17 -i https://pypi.douban.com/simple
+>  !git clone https://gitee.com/paddlepaddle/PaddleSeg.git
+
+
+>  !pip install paddleseg
+
+
+>  !pip install scikit-image
+
+
+>  !pip install opencv-python==3.4.2.17 -i https://pypi.douban.com/simple
 
 - 3，数据集地址
 > [数据地址](https://aistudio.baidu.com/aistudio/datasetdetail/100987)
